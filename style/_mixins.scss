@@ -1,0 +1,10 @@
+@mixin greenButton ($p: 10px, $c: rgba(1, 153, 109, 1)) {
+   
+    border-radius: 0.25em;
+    border: 0em;
+    width: 11.5em;
+    height: auto;
+    width: fit-content;
+    padding: $p;
+    background-color: $c;
+}

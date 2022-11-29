@@ -1,0 +1,41 @@
+footer {
+    background: rgba(36, 88, 82, 1);
+    height: 65vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+    div {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        span {
+            font-size: 3em;
+            color: white;
+            font-weight: bold;
+        }
+
+        ul {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            list-style: none;
+
+            li {
+                list-style: none;
+                text-decoration: none;
+
+                a {
+                    color: rgba(255, 255, 255, 1);
+                    text-decoration: none;
+                    font-size: 1.56em;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

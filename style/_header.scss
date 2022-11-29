@@ -1,0 +1,55 @@
+header {
+        align-items: center;
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: auto;
+
+        h1 {
+            color: $primcolor;
+        }
+
+        nav {
+            width: 50%;
+
+            ul {
+                list-style: none;
+                width: 60%;
+                display: flex;
+                justify-content: space-around;
+
+                a {
+                    text-decoration: none;
+                    font-size: 1.25em;
+                    color: rgba(41, 41, 41, 1);
+                    font-weight: bold;
+
+                }
+            }
+        }
+
+        div {
+
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-size: 1.25em;
+                font-weight: bold;
+            }
+
+            a {
+                font-size: 1.25em;
+                text-decoration: none;
+                color: white;
+            }
+
+            a {
+                @include greenButton;
+
+            }
+
+        }
+    }
